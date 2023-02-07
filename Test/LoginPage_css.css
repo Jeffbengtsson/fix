@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/BitmapBackground.bmp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+ .container{
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 420px;
+    margin: auto;
+    background-image: url('../images/svgLogin.svg');
+     background-position: center;
+     background-size: 480px 480px;
+    text-align: center;
+     border-radius: 25px;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+ul {
+    list-style-type: none;
+    position: sticky;
+    width:100%;
+    top:0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+

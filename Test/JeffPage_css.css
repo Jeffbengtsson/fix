@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/BitmapBackground.bmp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+
+}
+
+ul {
+    list-style-type: none;
+    position: sticky;
+    width:100%;
+    top:0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: left;
+    border-right: 1px solid blue;
+}
+
+li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+#clients{
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 4px black);
+
+
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 4px black);
+    position: center;
+
+}
+

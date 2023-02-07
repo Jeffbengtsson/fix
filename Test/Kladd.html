@@ -1,0 +1,28 @@
+
+function checkPassword(input) {
+let numCount = 0;
+let digitCount = 0;
+
+for (let i = 0; i < input.length; i++) {
+if (/[A-Z]/.test(input[i])) {
+numCount++;
+} else if (!isNaN(input[i])) {
+digitCount++;
+}
+}
+
+if (input.length >= 8 && numCount >= 2 && digitCount >= 1) {
+return true;
+} else {
+return false;
+}
+}
+
+document.getElementById("log").addEventListener("click", function() {
+let password = document.getElementById("Pass").value;
+if (checkPassword(password)) {
+alert("Valid password!");
+} else {
+alert("Invalid password!");
+}
+});

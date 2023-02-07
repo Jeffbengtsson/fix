@@ -1,0 +1,34 @@
+body {
+    background-image: url("../images/BitmapBackground.bmp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    position: sticky;
+    width:100%;
+    top:0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: left;
+    border-right: 1px solid blue;
+}
+
+li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: orange;
+    color: white;
+}
